@@ -1,0 +1,8 @@
+.CardsContainer {
+  margin: 4.9rem 0 6.4rem 0;
+  width: 100%;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  column-gap: 1.8rem;
+  row-gap: 3.3rem;
+}

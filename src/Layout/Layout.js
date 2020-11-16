@@ -1,15 +1,15 @@
 import React from 'react';
 
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+
 const Layout = (props) => {
   return (
-    <>
-      <div>
-        Main Navigation goes here and stuff like that
-        {/* Here goes main Navigation, footer and so on */}
-        {props.children}
-        Footer goes here
-      </div>
-    </>
+    <div className="row">
+      <NavBar />
+      {props.children}
+      <Footer />
+    </div>
   );
 };
 

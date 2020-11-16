@@ -1,18 +1,14 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 
-import ROUTES, { RenderRoutes } from '../routes';
-// import Layout from '../hoc/Layout/Layout';
-import LogoSimple from '../UI/LoaderSimple/LoaderSimple';
+import MainPage from '../MainPage/MainPage';
+import Layout from '../Layout/Layout';
 
-const Layout = lazy(() => import('../Layout/Layout'));
 const App = (props) => {
   return (
     <>
-      <Suspense fallback={<LogoSimple />}>
-        <Layout>
-          <RenderRoutes routes={ROUTES} />
-        </Layout>
-      </Suspense>
+      <Layout>
+        <MainPage />
+      </Layout>
     </>
   );
 };

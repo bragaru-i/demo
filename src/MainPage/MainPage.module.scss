@@ -1,0 +1,39 @@
+.Container {
+  margin: 4rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Headline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.HeadlineBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.HeadlineInfo {
+  padding-top: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details {
+  width: 74rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+.CTA {
+  align-self: flex-end;
+}
+// .Pagination {
+//   margin-top: 6.4rem;
+// }
